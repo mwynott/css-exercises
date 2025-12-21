@@ -1,1 +1,7 @@
-/* Add CSS Styling */
+/* Add CSS Styling*/
+:nth-child(odd) {
+    p {
+        background-color: #f796ea;
+        font-family: "Verdana", "DejaVu Sans", sans-serif;
+    }
+}
