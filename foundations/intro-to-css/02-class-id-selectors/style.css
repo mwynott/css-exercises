@@ -1,20 +1,19 @@
 /* Add CSS Styling*/
-:nth-child(odd) {
-    p {
+.odd {
         background-color: #f796ea;
         font-family: "Verdana", "DejaVu Sans", sans-serif;
-    }
+    
 }
 
-.number-2 {
+#two {
     color: #0055ff;
     font-size: 36px;
 }
 
-.number-3 {
+.three {
     font-size: 24px;
 }
-#number-4 {
+#four {
     background-color: #00ff00;
     font-size: 24px;
     font-style: bold;
