@@ -20,12 +20,35 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 10px;
+  display: flex;
+  padding: 16px;
+  gap: 16px;
 }
 
-.topline {
+.icon {
+  flex-shrink: 0;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.info {
   display: flex;
   justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
 }
 
 .icon {
